@@ -1,0 +1,8 @@
+def solution(sizes):
+    d=[]
+    h=[]
+    for i in range(len(sizes)):
+        d.append(min(sizes[i]))
+        h.append(max(sizes[i]))
+    size= max(d)*max(h)
+    return size
